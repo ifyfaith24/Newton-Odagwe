@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton Odagwe</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/a03b26543c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/New-fav.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <div class="togglebtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div> -->
+
+                <div class="logo">NO.</div>
+
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">contact</a>
+                    </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h5>Hi I'm <span class="input">Product Manager</span></h5>
+                <h1><span>Newton</span> Odagwe</h1>
+                <div>
+                    <a href="./assets/My-CV.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------- ABout ---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/Okay1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p class="para">I am a Product Manager with over 5 years of experience championing a shared vision across multiple stakeholders under Product Management, Operations, sales, marketing, and partnership roles. Skilled at translating user needs into roadmap
+                        and shipping delightful products. Superior presentation skills in complex data analysis in an easy-to-understand format. Thrive in a fast-paced, result-driven, agile environment, and startup experience with an interest in fintech,
+                        software, and blockchain-related products
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">
+                            Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> Basic HTML, and CSS framework</span>
+                                <p>Presentation Skills – Storytelling</p>
+                            </li>
+                            <li><span>Data Analytics for Managers</span>
+                                <p>Creative Problem Solving
+                                </p>
+                            </li>
+                            <li><span>Six Sigma & Lean Process </span>
+                                <p>Good negotiation skills</p>
+                            </li>
+                            <li><span>Certified Associate in Scrum Fundamentals</span>
+                                <p>Managing Risk through the Product Cycle</p>
+                            </li>
+                            <li><span>Blockchain for Managers </span>
+                                <p>Target driven & Result Oriented</p>
+                            </li>
+                            <li><span>Plan & Execute Product Roadmaps</span>
+                                <p>Excellent Communication skills</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> May 2022 - Current</span>
+                                <h4> Product Manager-lead </h4>
+                                <p>Prunedge Development Technology Limited</p>
+                            </li>
+                            <li><span>May 2020 - Dec 2021</span>
+                                <h4> Product Manager-leadbr </h4>
+                                <p>Ibic Holdings</p>
+                            </li>
+                            <li><span>Jun 2017 - May 2019</span>
+                                <h4>Product Operations Manager
+                                </h4>
+                                <p>Patrcia Technology Limited</p>
+                            </li>
+                            <li><span>Aug 2015 - Apr 2017</span>
+                                <h4> Product Marketer
+                                </h4>
+                                <p>
+                                    Saro Agrosciences Nigeria Limited
+                                </p>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>
+                                <h4>Mini MBA, Technology Management</h4>
+                                <p>Institute of Management, Technology and Finance</p>
+                            </li>
+                            <li><span>2023</span><br>
+                                <h4>Master of Business Administration, Business Administration and Managemen</h4>
+                                <p>The University of Nigeria Nsukka</p>
+                            </li>
+                            <li><span>2021</span><br>
+                                <h4>Product School</h4>
+                                <p>Blockchain For Managers</p>
+                            </li>
+                            <li><span> 2015</span><br>
+                                <h3>Bachelor of Science, Plant Science, Biotechnology</h3>
+                                <p>The University of Nigeria Nsukka</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------- Services ---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Servic<span>es</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-chess-king"></i>
+                    <h2>Product Strategy</h2>
+                    <p>Defining the long-term vision and developing a strategic roadmap to guide the product's direction and success.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Product Development</h2>
+                    <p>Coordinating with cross-functional teams to ensure the product is built to specification and delivered on time.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Feature Prioritization</h2>
+                    <p>Identifying and prioritizing key features based on customer value, business goals, and technical feasibility..</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Feature Prioritization</h2>
+                    <p>Identifying and prioritizing key features based on customer value, business goals, and technical feasibility..</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Feature Prioritization</h2>
+                    <p>Identifying and prioritizing key features based on customer value, business goals, and technical feasibility..</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Feature Prioritization</h2>
+                    <p>Identifying and prioritizing key features based on customer value, business goals, and technical feasibility..</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!---------------- Portfolio ---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Wo<span>rk</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assets/work1.png" alt="work Image">
+                    <div class="layer">
+                        <h3>CORE BANKING APPLICATION</h3>
+                        <p>This is a retail core banking application designed to manage and automate the daily operations of retail banking services. It is the backbone of banking operations, enabling financial institutions to deliver efficient, secure,
+                            and customer-centric service. It is a micro-service-based application. I assisted in leading the development team to envision and develop some of the micro-services such as User and role management, Currency, Segregation of
+                            duties, Chart of Accounts and Fiscal Period. It is a highly permission-based system envisioned in such a way as to limit fraud in the system.
+                        </p>
+                        <a href="https://www.figma.com/proto/s0Qi907YJlpSRQe77OrcDX/Sterling_Prunedge_CoA-and-JP-enhancements_22_Mar_2024?node-id=54140-85982&p=f&t=qmEZzU51t9Zr1uMy-0&scaling=contain&content-scaling=fixed&page-id=1463%3A41360&starting-point-node-id=54140%3A86609&show-proto-sidebar=1
+                        "><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="./assets/Ez-loan.jpg" alt="work Image">
+                    <div class="layer">
+                        <h3>Easy Cash (9-5) Loan Application</h3>
+                        <p>This monolithic loan application is targeted at working-class citizens within a geographical location. It comprises both the user interface and the admin web application. This solution aims to help working-class citizens access
+                            loans by applying for loans to help with financial needs until their salary is paid. Little interest is paid in the process, and the bank uses the method to source new customers and increase its customer base.</p>
+                        <a href="https://stanbic-upl.netlify.app/auth/admin"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/Bankquick.jpg" alt="work Image">
+                    <div class="layer">
+                        <h3>Bank Quick Service Portal
+                        </h3>
+                        <p>QSP is a digital platform designed to streamline and enhance the efficiency of service delivery for businesses and their customers. It provides an intuitive interface that enables users to perform essential tasks quickly and conveniently.
+                            This is a microservice architecture and the aim is to reduce the inflow of customers into the bank's branches for issues resolution and complaints. Customers can serve themselves through these channels and feedback is sent
+                            to them promptly and efficiently.
+                        </p>
+                        <a href="https://www.figma.com/proto/SwT8P5JB02yRiYxoYtfkF1/Standbic-QSP-New-03%2F05%2F2024?node-id=8651-51998&t=RV9P3ICQR7V6AOLF-0&scaling=scale-down&content-scaling=fixed&page-id=7296%3A31901&starting-point-node-id=8651%3A51998&show-proto-sidebar=1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./assets/HR.jpg" alt="work Image">
+                    <div class="layer">
+                        <h3>Human Resource Management Solution</h3>
+                        <p>This is designed to streamline and automate various aspects of human resource management within an organization. It serves as a centralised platform for HR professionals to efficiently manage employee-related processes, reduce
+                            administrative burdens, and enhance overall workforce productivity. It includes employee information management, recruitment and onboarding, payroll and compensation, employee self-service, learning and development, e.t.c
+                        </p>
+                        <a href="https://www.figma.com/design/K8jdFVzwh80XaZCeHZJBnq/Keystone-HRMS-(System-Admin-%26-Employee)?node-id=0-1&t=PymdoMzxVIzJJeK1-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/work3.jpg" alt="work Image">
+                    <div class="layer">
+                        <h3>PROWORKS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore aut soluta quasi </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/work3.jpg" alt="work Image">
+                    <div class="layer">
+                        <h3>Auto-Mobile Car Loan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore aut soluta quasi </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!----------------- Contact ---------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Newton.odagwe@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 08149649554</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="./assets/My-CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright &copy; Newton. Designed by Faith</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
